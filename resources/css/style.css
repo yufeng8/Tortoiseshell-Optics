@@ -1,0 +1,144 @@
+html,
+body {
+  font-family: Helvetica;
+  font-size: 18px;
+  line-height: 1.4;
+  background-color: white;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.company {
+  background-image: url("../../resources/images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+  padding-top: 1rem;
+}
+
+.company .header {
+  padding: 0rem 2rem;
+  margin-top: 1rem;
+  background-color: cadetblue;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company .logo {
+  display: flex;
+  align-items: center;
+}
+
+.company img {
+  height: 1.5rem;
+  background-color: cadetblue;
+  padding-right: 1rem;
+}
+
+.company span {
+  font-size: 1rem;
+}
+
+nav ul {
+  margin: 1rem auto;
+}
+
+li {
+  color: white;
+  padding-left: 2rem;
+  display: inline-block;
+}
+
+.company .reminder {
+  color: black;
+  margin-top: 10rem;
+  position: relative;
+}
+
+.reminder h1 {
+  padding: 1.5rem 5rem;
+  font-weight: bold;
+  background-color: white;
+  font-size: 2rem;
+  line-height: 1.2;
+  position: absolute;
+  right: -2rem;
+}
+
+ .items {
+  display: flex;
+  justify-content: center;
+  margin: 3rem auto;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 8rem;
+}
+
+.item img {
+  margin: 0 3rem;
+}
+
+.item.paper img {
+  width: 3.5rem;
+}
+
+.item.ruler img {
+  width: 5rem;
+}
+
+.item.truck img {
+  width: 5rem;
+}
+
+.item p {
+  text-align: center;
+  width: 8rem;
+  margin: 0 auto;
+}
+
+.categories {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 5rem;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  margin: 0 5%;
+}
+
+.category span {
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: cadetblue;
+  color: white;
+  padding: 0.5rem 1.25rem;
+  width: 10rem;
+  margin-bottom: 1rem;
+}
+
+footer .container {
+  background-color: azure;
+  padding: 4rem 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+footer img {
+  height: 1.5rem;
+  background-color: azure;
+  padding-right: 1rem;
+}
