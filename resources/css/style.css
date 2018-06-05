@@ -49,6 +49,10 @@ nav ul {
   margin: 1rem auto;
 }
 
+.menu {
+  display: none;
+}
+
 li {
   color: white;
   padding-left: 2rem;
@@ -71,7 +75,7 @@ li {
   right: -2rem;
 }
 
- .items {
+.items {
   display: flex;
   justify-content: center;
   margin: 3rem auto;
@@ -141,4 +145,101 @@ footer img {
   height: 1.5rem;
   background-color: azure;
   padding-right: 1rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .company {
+    height: 22rem;
+    padding-top: 0;
+  }
+
+  .company .header {
+    margin-top: 0;
+  }
+
+  .company .reminder {
+    margin-top: 5rem;
+  }
+
+  .company h1 {
+    padding: 0.75rem 4rem;
+    font-size: 1.33rem;
+    right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .company {
+    height: 17rem;
+  }
+
+  .company .reminder {
+    margin-top: 9rem;
+  }
+
+  .reminder h1 {
+    font-size: 1rem;
+    width: 100%;
+    right: 0;
+    text-align: right;
+  }
+
+  .company span {
+    display: none;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+    text-align: center;
+  }
+
+  .items {
+    margin: 3.77rem auto;
+    flex-direction: column;
+  }
+
+  .item {
+    margin-bottom: 1.54rem auto;
+    justify-content: space-around;
+  }
+
+  .item img {
+    margin: 0 auto;
+  }
+
+  .item p {
+    font-size: 0.77rem;
+  }
+
+  .categories {
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+  }
+
+  .category {
+    width: 100%;
+    margin: 0 auto 4rem auto;
+  }
+
+  .category span {
+    text-align: center;
+    width: 100%;
+  }
+
+  .category p {
+    font-size: 0.77rem;
+  }
+
+  footer span {
+    display: none;
+  }
+
+  footer img {
+    padding-right: 0;
+    margin: 0 auto;
+  }
 }
